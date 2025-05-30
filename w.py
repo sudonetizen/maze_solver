@@ -135,7 +135,7 @@ class Maze:
         if seed: random.seed(seed)
 
         self.create_cells()
-        time.sleep(10)
+        time.sleep(3)
         self.break_entrance_and_exit()
         self.break_walls_r(0, 0)
         self.reset_cells_visited()
@@ -209,7 +209,7 @@ class Maze:
     def animate(self):
         if self.win is None: return
         self.win.redraw()
-        time.sleep(0.05)
+        time.sleep(0.02)
 
     def solve(self):
         return self.solve_r(0, 0)
