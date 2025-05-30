@@ -1,7 +1,7 @@
 # maze_solver
 
 Required
-- to insall Python Tkinter 
+- to install Python Tkinter 
 
 Run
 ```shell
